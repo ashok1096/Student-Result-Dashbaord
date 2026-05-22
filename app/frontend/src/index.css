@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.5;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  padding: 6px 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  color: #333333;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+input, select, textarea {
+  font-family: Arial, sans-serif;
+  padding: 6px 10px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: #333333;
+}

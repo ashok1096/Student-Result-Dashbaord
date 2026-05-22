@@ -1,0 +1,17 @@
+# Environments
+venv/
+.env
+
+# Frontend dependencies and builds
+app/frontend/node_modules/
+app/frontend/dist/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
